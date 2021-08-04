@@ -28,8 +28,6 @@ class AppDatabase {
   }
 
   Future _createDB(Database db, int version) async {
-    // todo remove this line
-    // db.delete(tableName);
     final idType = 'TEXT PRIMARY KEY';
     final textType = 'TEXT NOT NULL';
     final boolType = 'BOOLEAN NOT NULL';
